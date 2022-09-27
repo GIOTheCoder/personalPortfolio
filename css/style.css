@@ -93,3 +93,7 @@ Main
 .social-icons a:last-child {
     padding-right: 0;
 }
+
+.social-icons a:hover {
+    color: #9eb9ce;
+}
