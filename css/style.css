@@ -1,0 +1,95 @@
+:root {
+    --mainFont: 'Poppins', sans-serif;;
+    --secFont: 'Leg Hug', sans-serif;
+    --prim: #9eb9ce;
+}
+
+/* 
+Global Styling
+*/
+
+body {
+    background-color: black;
+}
+
+/* 
+Header
+*/
+
+.nav-item {
+    font-family: var(--secFont);
+    font-size: 20px;
+    letter-spacing: 1px;
+    /* border-right: solid 3px white;
+    line-height: 8px; */
+}
+
+/* .nav-item:last-child {
+    border-right: none;
+} */
+
+.nav-item a{
+    color: white;
+    border-radius: 5px;
+}
+
+.nav-item a:hover {
+    background-color: var(--prim);
+    border-radius: 5px;
+    color: black;
+    /* padding: 2px 6px 2px 6px; */
+    
+}
+
+/* 
+Main
+*/
+.slash {
+    color: var(--prim)
+}
+
+.hero-text {
+    font-family: var(--mainFont);
+    font-size: 150px;
+    letter-spacing: -9px;
+    line-height: 120px;
+    
+}
+
+.hero-text span {
+    margin-left: -10px;
+    color: var(--prim);
+}
+
+@media (max-width: 600px) {
+    .hero-text {
+        font-size: 80px;
+        letter-spacing: -3px;
+        line-height: 65px;
+    }
+}
+
+.welcome {
+    font-family: var(--mainFont);
+    font-size: 15px;
+    letter-spacing: 30px;
+}
+
+.welcome span {
+
+    color: var(--prim);
+}
+
+.socials a{
+    text-decoration: none;
+    color: white;
+    
+}
+
+.social-icons a{
+    padding-right: 10px;
+}
+
+.social-icons a:last-child {
+    padding-right: 0;
+}
