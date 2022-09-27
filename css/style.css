@@ -41,11 +41,16 @@ Header
     
 }
 
-/* 
+/*  
 Main
 */
+
 .slash {
     color: var(--prim)
+}
+
+.hero-section {
+    color: white;
 }
 
 .hero-text {
@@ -67,7 +72,11 @@ Main
         letter-spacing: -3px;
         line-height: 65px;
     }
+
+
 }
+
+
 
 .welcome {
     font-family: var(--mainFont);
