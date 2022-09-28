@@ -104,5 +104,95 @@ Main
 }
 
 .social-icons a:hover {
-    color: #9eb9ce;
+    color: var(--prim);
+}
+
+
+/* 
+About
+*/
+
+.header-text {
+    color: white;
+    font-family: var(--mainFont);
+    text-transform: uppercase;
+    line-height: 75px;
+}
+
+.header-text span {
+    color: var(--prim);
+    margin-left: -12px;
+}
+
+.header-1 {
+    font-size: 140px;
+}
+
+.header-2 {
+    font-size: 75px;
+}
+
+@media (max-width: 600px) {
+    .header-text {
+        line-height: 50px;
+    }
+
+}
+
+@media (max-width: 600px) {
+    .header-1 {
+        font-size: 100px;
+    }
+
+}
+
+@media (max-width: 600px) {
+    .header-2 {
+        font-size: 55px;
+    }
+
+}
+
+/* 
+Main
+*/
+
+.bio {
+    padding-left: 0;
+}
+
+.bio-text {
+    font-family: var(--mainFont);
+    font-size: 45px;
+    color: white;
+    line-height: 15px;
+    padding-top: 25px;
+    
+}
+
+.dev  {
+    
+    font-size: 30px;
+}
+
+@media (max-width: 600px) {
+    .bio-text {
+        font-size: 40px;
+        line-height: 10px;
+    }
+
+}
+@media (max-width: 600px) {
+    .dev {
+        font-size: 25px;
+    }
+
+}
+
+.period {
+    color: var(--prim);
+}
+
+.bio-main {
+    font-size: 12px;
 }
