@@ -172,7 +172,7 @@ Main
 
 .dev  {
     
-    font-size: 30px;
+    font-size: calc(25px + (30 - 25) * ((100vw - 300px) / (1600 - 300)));
 }
 
 @media (max-width: 600px) {
@@ -182,12 +182,12 @@ Main
     }
 
 }
-@media (max-width: 600px) {
+/* @media (max-width: 600px) {
     .dev {
         font-size: 25px;
     }
 
-}
+} */
 
 .period {
     color: var(--prim);
@@ -196,3 +196,43 @@ Main
 .bio-main {
     font-size: 12px;
 }
+
+
+/* 
+Projects
+*/
+
+/* 
+Main
+*/
+
+.projects-header {
+    color: white;
+    font-family: var(--mainFont);
+    font-size: 100px;
+    text-transform: uppercase;
+    letter-spacing: -4px;
+}
+
+.projects-header span {
+    color: var(--prim);
+}
+
+@media (max-width: 600px) {
+    .projects-header {
+        font-size: 65px;
+    }
+
+}
+.carousel-item h5 {
+    font-family: var(--mainFont);
+    font-size: 40px;
+    text-transform: uppercase;
+    
+}
+
+
+.carousel {
+    border: solid 10px var(--prim);
+}
+
