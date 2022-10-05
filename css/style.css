@@ -89,6 +89,17 @@ Main
     color: var(--prim);
 }
 
+.snapshot-image img:hover {
+    border: 2px solid var(--prim);
+}
+
+.port-ss a {
+    text-decoration: none;
+}
+/* 
+Footer
+*/
+
 .socials a{
     text-decoration: none;
     color: white;
@@ -236,3 +247,26 @@ Main
     border: solid 10px var(--prim);
 }
 
+
+/* 
+Contact
+*/
+
+.contact {
+    font-size: 40px;
+    text-transform: uppercase;
+    font-family: var(--secFont);
+    letter-spacing: 1px;
+}
+
+.contact a{
+    font-size: 40px;
+    text-transform: uppercase;
+    font-family: var(--secFont);
+    letter-spacing: 1px;
+    text-decoration: none;
+}
+
+.contact-icon {
+    color: var(--prim);
+}
